@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'IM Fell English', 'TeX Gyre Termes', Georgia, 'Times New Roman', serif;
+    font-family: 'Crimson Text', 'CMU Serif', 'TeX Gyre Termes', Georgia, 'Times New Roman', serif;
     color: black;
     background-color: white;
     line-height: 1.4;
