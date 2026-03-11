@@ -68,6 +68,11 @@ header h1 a:active {
     text-decoration: none;
 }
 
+.byline {
+    font-size: 0.75em;
+    margin: -5px 0 15px 0;
+}
+
 /* Navigation */
 nav ul {
     list-style: none;
