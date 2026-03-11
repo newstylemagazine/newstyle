@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Computer Modern';
-    src: url('fonts/CMU-Roman.ttf') format('truetype');
+    src: url('/newstyle/fonts/CMU-Roman.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Computer Modern';
-    src: url('fonts/CMU-Italic.ttf') format('truetype');
+    src: url('/newstyle/fonts/CMU-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
