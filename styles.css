@@ -223,18 +223,21 @@ footer {
     }
 
     .content-grid {
-        display: block;
-        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+        margin-top: 10px;
     }
 
     .left-block {
-        font-size: 0.95em;
-        margin-bottom: 20px;
+        font-size: 0.9em;
+        margin-bottom: 0;
     }
 
     .right-block {
-        font-size: 0.95em;
-        padding-top: 0;
+        font-size: 0.9em;
+        padding-top: 30px;
     }
 
     .image-container {
