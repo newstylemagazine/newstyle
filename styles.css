@@ -1,4 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('CMUSerif-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('CMUSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
 
 * {
     margin: 0;
@@ -7,7 +19,7 @@
 }
 
 body {
-    font-family: 'Crimson Text', 'CMU Serif', 'TeX Gyre Termes', Georgia, 'Times New Roman', serif;
+    font-family: 'Computer Modern', 'Crimson Text', Georgia, 'Times New Roman', serif;
     color: black;
     background-color: white;
     line-height: 1.4;
