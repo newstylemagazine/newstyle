@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=TeX+Gyre+Termes:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'TeX Gyre Termes', Georgia, serif;
+    font-family: 'IM Fell English', 'TeX Gyre Termes', Georgia, 'Times New Roman', serif;
     color: black;
     background-color: white;
     line-height: 1.4;
@@ -88,7 +88,7 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: start;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .left-block {
@@ -212,7 +212,7 @@ footer {
 
     .content-grid {
         display: block;
-        margin-top: 30px;
+        margin-top: 15px;
     }
 
     .left-block {
