@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'CMU Serif';
-    src: url('https://fonts.gstatic.com/s/cmunserif/v12/c4m_1kxzCJfR8jVcKehTXHoP6c5AY5xGmQ.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=TeX+Gyre+Termes:ital@0;1&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +7,7 @@
 }
 
 body {
-    font-family: 'CMU Serif', 'TeX Gyre Termes', 'Computer Modern', Georgia, serif;
+    font-family: 'TeX Gyre Termes', Georgia, serif;
     color: black;
     background-color: white;
     line-height: 1.4;
