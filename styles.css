@@ -102,21 +102,8 @@ main {
 }
 
 main:has(.work-list) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-main:has(.work-list) .container {
-    width: 100%;
-    max-width: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+    padding: 40px 0 80px 0;
+    text-align: center;
 }
 
 .content-grid {
@@ -204,7 +191,8 @@ h3 {
 .author-name a {
     color: black;
     text-decoration: none;
-    font-style: normal !important;
+    font-style: normal;
+    font-size: 1.05em;
 }
 
 .author-name a:hover {
@@ -223,9 +211,15 @@ h3 {
     padding-bottom: 0;
 }
 
-.work-list a {
+.work-list > li > a {
     font-size: 1.05em;
     font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+.work-list a {
+    font-size: 1.05em;
     color: black;
     text-decoration: none;
 }
