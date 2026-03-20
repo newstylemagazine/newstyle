@@ -105,7 +105,9 @@ main:has(.work-list) {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
     padding: 0;
+    margin: 0;
 }
 
 .content-grid {
