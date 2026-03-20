@@ -192,6 +192,17 @@ h3 {
     margin: 0 !important;
 }
 
+.author-name a {
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.author-name a:hover {
+    color: #888888;
+    text-decoration: none;
+}
+
 .work-list {
     list-style: none;
     padding: 0;
@@ -206,6 +217,17 @@ h3 {
 .work-list a {
     font-size: 1.05em;
     font-style: italic;
+    color: black;
+    text-decoration: none;
+}
+
+.work-list a:hover {
+    color: #888888;
+    text-decoration: none;
+}
+
+.work-list a:active {
+    text-decoration: none;
 }
 
 /* Footer */
