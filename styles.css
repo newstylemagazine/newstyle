@@ -210,6 +210,8 @@ h3 {
 .work-list li {
     margin-bottom: 72px;
     padding-bottom: 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 72px;
 }
 
 .work-list > li > a {
