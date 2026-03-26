@@ -251,18 +251,63 @@ h3 {
 }
 
 .song-column {
-    font-size: 0.95em;
-    line-height: 1.8;
+    font-size: 0.8em;
+    line-height: 1.6;
 }
 
 .song-column p {
     margin: 0;
-    line-height: 1.8;
-    font-size: 0.95em;
+    line-height: 1.6;
+    font-size: 0.8em;
 }
 
 .song-column p:not(:last-child) {
     margin-bottom: 15px;
+}
+
+/* Line pairing for song translations */
+.song-line-pairs {
+    display: contents;
+}
+
+.song-line-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+.song-line-pair .line-italian,
+.song-line-pair .line-english {
+    font-size: 0.8em;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Song table for precise alignment */
+.song-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.song-table .table-row {
+    display: table-row;
+}
+
+.song-table .table-cell {
+    display: table-cell;
+    padding-right: 10px;
+    vertical-align: baseline;
+}
+
+.song-table .table-cell.italian {
+    padding-right: 20px;
 }
 
 /* Footer */
