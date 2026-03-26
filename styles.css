@@ -247,6 +247,7 @@ h3 {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-top: 30px;
+    align-items: start;
 }
 
 .song-column {
@@ -255,13 +256,13 @@ h3 {
 }
 
 .song-column p {
-    margin: 0 0 80px 0;
+    margin: 0;
     line-height: 1.8;
     font-size: 0.95em;
 }
 
 .song-column p:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 /* Footer */
