@@ -256,6 +256,7 @@ h3 {
 .song-column p {
     margin: 0;
     line-height: 1.6;
+    font-size: 1em;
 }
 
 .song-column p:not(:last-child) {
@@ -301,6 +302,7 @@ h3 {
     display: table-cell;
     padding-right: 10px;
     vertical-align: baseline;
+    font-size: 1em;
 }
 
 .song-table .table-cell.italian {
