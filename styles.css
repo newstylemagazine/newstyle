@@ -394,6 +394,32 @@ footer {
     main {
         padding: 20px 0 40px 0;
     }
+
+    /* Mobile: Reduce song text size for better alignment on narrow screens */
+    .song-columns {
+        gap: 5px;
+        margin-top: 20px;
+    }
+
+    .song-column {
+        font-size: 0.65em;
+        line-height: 1.5;
+    }
+
+    .song-table {
+        font-size: 0.65em;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .song-table .table-cell {
+        padding-right: 5px;
+    }
+
+    .song-table .table-cell.italian {
+        padding-right: 8px;
+    }
 }
 
 /* Featured Section */
