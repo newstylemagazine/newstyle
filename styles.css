@@ -126,9 +126,10 @@ main:has(.work-list) {
 
 .image-container {
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 75%;
     display: block;
     text-align: center;
 }
@@ -207,7 +208,7 @@ h3 {
 }
 
 .work-list li {
-    margin-bottom: 0;
+    margin-bottom: 50px;
     padding-bottom: 0;
 }
 
@@ -231,6 +232,35 @@ h3 {
 
 .work-list a:active {
     text-decoration: none;
+}
+
+.story-subtitle {
+    font-size: 1.05em;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.song-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.song-column {
+    font-size: 0.95em;
+    line-height: 1.8;
+}
+
+.song-column p {
+    margin: 0 0 80px 0;
+    line-height: 1.8;
+    font-size: 0.95em;
+    white-space: nowrap;
+}
+
+.song-column p:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 /* Footer */
