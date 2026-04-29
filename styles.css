@@ -481,6 +481,33 @@ p.story-author {
     margin-bottom: 0.5em;
 }
 
+.story-body p.poem-subtitle {
+    text-align: center;
+}
+
+.poem-body p {
+    margin-bottom: 0;
+    padding-left: 25%;
+}
+
+.poem-body p.poem-subtitle {
+    padding-left: 0;
+}
+
+.poem-body br {
+    display: none;
+}
+
+.poem-body p.poem-subtitle {
+    padding-left: 0;
+    margin-top: 5em;
+    margin-bottom: 0.6em;
+}
+
+.poem-body p.poem-subtitle:first-child {
+    margin-top: 0;
+}
+
 .back-link {
     font-size: 1.05em;
     margin-top: 40px;
