@@ -234,6 +234,14 @@ h3 {
     text-decoration: none;
 }
 
+.work-list li:hover > a,
+.work-list li:hover .author-name a,
+.work-list li:focus-within > a,
+.work-list li:focus-within .author-name a {
+    color: #888888;
+    text-decoration: none;
+}
+
 .story-subtitle {
     font-size: 1.05em;
     margin: 10px 0;
