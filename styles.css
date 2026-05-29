@@ -548,6 +548,17 @@ p.story-author {
     text-indent: -1.2em;
 }
 
+@media (max-width: 768px) {
+    .panegyric-poem p.poem-subtitle.poem-number {
+        padding-left: 0;
+    }
+
+    .panegyric-poem p:not(.poem-subtitle) {
+        padding-left: calc(10% + 1.2em);
+        padding-right: 10%;
+    }
+}
+
 .back-link {
     font-size: 1.05em;
     margin-top: 40px;
