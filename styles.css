@@ -516,6 +516,38 @@ p.story-author {
     margin-top: 0;
 }
 
+.panegyric-poem p.poem-subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.panegyric-poem p.poem-subtitle.poem-source {
+    margin-top: 4.2em;
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+.panegyric-poem p.poem-subtitle.poem-source-credit {
+    margin-top: 0 !important;
+    margin-bottom: 1.4em;
+}
+
+.panegyric-poem p.poem-subtitle.poem-number {
+    padding-left: 20%;
+    text-align: center;
+    margin-top: 1.1em;
+    margin-bottom: 0;
+}
+
+.panegyric-poem p.poem-subtitle.poem-number:first-of-type {
+    margin-top: 0;
+}
+
+.panegyric-poem p:not(.poem-subtitle) {
+    padding-left: calc(20% + 1.2em);
+    text-indent: -1.2em;
+}
+
 .back-link {
     font-size: 1.05em;
     margin-top: 40px;
