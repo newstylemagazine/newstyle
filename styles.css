@@ -137,12 +137,14 @@ body.writing-page .container {
     grid-column: span 4;
 }
 
-body.writing-page .post-constellation > .post-card:nth-child(1) {
-    grid-column: 2 / span 4;
-}
+@media (min-width: 769px) {
+    body.writing-page .post-constellation > .post-card:nth-child(1) {
+        grid-column: 2 / span 4;
+    }
 
-body.writing-page .post-constellation > .post-card:nth-child(2) {
-    grid-column: 6 / span 6;
+    body.writing-page .post-constellation > .post-card:nth-child(2) {
+        grid-column: 6 / span 6;
+    }
 }
 
 .post-link {
@@ -484,6 +486,11 @@ footer {
         grid-column: span 1;
     }
 
+    body.writing-page .post-constellation > .post-card:nth-child(1),
+    body.writing-page .post-constellation > .post-card:nth-child(2) {
+        grid-column: span 1 !important;
+    }
+
     .post-thumb {
         aspect-ratio: 16 / 10;
     }
@@ -559,6 +566,11 @@ footer {
     body.writing-page .post-card.wide,
     body.writing-page .post-card.tall {
         grid-column: span 1;
+    }
+
+    body.writing-page .post-constellation > .post-card:nth-child(1),
+    body.writing-page .post-constellation > .post-card:nth-child(2) {
+        grid-column: span 1 !important;
     }
 
     body.writing-page .post-thumb {
