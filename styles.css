@@ -137,6 +137,14 @@ body.writing-page .container {
     grid-column: span 4;
 }
 
+.post-card.feature {
+    grid-column: span 12;
+}
+
+.post-card.feature .post-thumb {
+    aspect-ratio: 21 / 9;
+}
+
 .post-link {
     display: block;
     color: inherit;
@@ -472,7 +480,8 @@ footer {
     .post-card,
     .post-card.large,
     .post-card.wide,
-    .post-card.tall {
+    .post-card.tall,
+    .post-card.feature {
         grid-column: span 1;
     }
 
@@ -549,7 +558,8 @@ footer {
     body.writing-page .post-card,
     body.writing-page .post-card.large,
     body.writing-page .post-card.wide,
-    body.writing-page .post-card.tall {
+    body.writing-page .post-card.tall,
+    body.writing-page .post-card.feature {
         grid-column: span 1;
     }
 
