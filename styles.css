@@ -78,7 +78,9 @@ header h1 a:active {
 }
 
 .site-byline {
-    font-variant: small-caps;
+    font-family: 'CMU Serif Upright Italic', 'Computer Modern', serif;
+    font-style: normal;
+    font-variant: normal;
     font-size: 0.85em;
     font-weight: normal;
     letter-spacing: 0.18em;
