@@ -87,6 +87,14 @@ header h1 a:active {
     color: black;
 }
 
+header h1:hover + .site-byline {
+    color: #888888;
+}
+
+.site-byline:hover {
+    color: #888888;
+}
+
 .byline {
     font-size: 1.05em;
     margin: 0 0 12px 0;
