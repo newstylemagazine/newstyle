@@ -39,6 +39,28 @@ body {
     padding: 0 40px;
 }
 
+/* Instagram link */
+.instagram-link {
+    position: fixed;
+    top: 22px;
+    right: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    z-index: 1000;
+}
+
+.instagram-link svg {
+    width: 22px;
+    height: 22px;
+    display: block;
+}
+
+.instagram-link:hover {
+    color: #888888;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -485,6 +507,16 @@ footer {
     .container {
         max-width: 100%;
         padding: 0 20px;
+    }
+
+    .instagram-link {
+        top: 14px;
+        right: 14px;
+    }
+
+    .instagram-link svg {
+        width: 18px;
+        height: 18px;
     }
 
     header h1 {
