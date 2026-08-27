@@ -279,6 +279,42 @@ body.writing-page .container {
 .coming-soon p {
     font-size: 1.05em;
 }
+
+.submit-open {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.submit-heading {
+    font-variant: small-caps;
+    font-size: 1.8em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    margin-bottom: 24px;
+}
+
+.submit-categories {
+    margin-bottom: 30px;
+}
+
+.submit-categories p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.submit-details {
+    max-width: 480px;
+    margin: 0 auto 24px;
+    font-size: 1.05em;
+    line-height: 1.5;
+}
+
+.submit-email {
+    font-size: 1.05em;
+    margin-bottom: 10px;
+}
+
 h2 {
     font-size: 1.05em;
     font-weight: normal;
