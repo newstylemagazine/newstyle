@@ -68,11 +68,6 @@ header h1 a {
     font-style: normal;
 }
 
-header h1 a:hover {
-    color: #888888;
-    text-decoration: none;
-}
-
 header h1 a:active {
     text-decoration: none;
 }
@@ -89,12 +84,10 @@ header h1 a:active {
     color: black;
 }
 
-header h1:hover + .site-byline {
+header:has(h1 a:hover, .site-byline:hover) h1 a,
+header:has(h1 a:hover, .site-byline:hover) .site-byline {
     color: #888888;
-}
-
-.site-byline:hover {
-    color: #888888;
+    text-decoration: none;
 }
 
 .byline {
@@ -524,6 +517,11 @@ footer {
     .right-block {
         font-size: 0.9em;
         padding-top: 30px;
+    }
+
+    .submit-details,
+    .submit-email {
+        font-size: 0.9em;
     }
 
     .image-container {
