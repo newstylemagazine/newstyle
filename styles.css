@@ -584,6 +584,10 @@ footer {
         aspect-ratio: 16 / 10;
     }
 
+    .post-card.feature .post-thumb {
+        aspect-ratio: 16 / 10;
+    }
+
     .coming-soon {
         margin-top: 30px;
         min-height: auto;
@@ -663,6 +667,10 @@ footer {
         max-width: 100% !important;
         height: auto !important;
         aspect-ratio: 16 / 10;
+    }
+
+    body.writing-page .post-card.feature .post-thumb {
+        aspect-ratio: 16 / 10 !important;
     }
 }
 
